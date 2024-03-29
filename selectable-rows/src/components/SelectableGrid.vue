@@ -27,8 +27,6 @@
       const endRow = Math.floor((end - 1) / props.columns);
       const startCol = (start - 1) % props.columns;
       const endCol = (end - 1) % props.columns;
-      console.log(startCol, endCol);
-
       for (
         let i = Math.min(startRow, endRow);
         i <= Math.max(startRow, endRow);
