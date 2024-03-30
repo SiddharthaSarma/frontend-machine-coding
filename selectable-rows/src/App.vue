@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import SelectableGrid from './components/SelectableGrid.vue';
+  import SelectableGrid from './components/SelectableGridV2.vue';
 </script>
 
 <template>
